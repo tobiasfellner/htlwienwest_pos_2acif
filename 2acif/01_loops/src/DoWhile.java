@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class While {
+public class DoWhile {
     public static void main(String[] args) {
         // a => a
         // b => ab
@@ -8,16 +8,17 @@ public class While {
         // 2 => abx und abbrechen
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("char eingeben:");
-        char c = scanner.nextLine().charAt(0);
         String result = "";
 
-        while (Character.isAlphabetic(c)){
-            result = result + c;
-
+        char c;
+        do {
             System.out.println("char eingeben:");
             c = scanner.nextLine().charAt(0);
-        }
+            if (Character.isAlphabetic(c)) {
+                result = result + c;
+            }
+        } while (Character.isAlphabetic(c));
+
         System.out.println(result);
 
     }
