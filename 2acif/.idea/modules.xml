@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_loops/01_loops.iml" filepath="$PROJECT_DIR$/01_loops/01_loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_arrays/02_arrays.iml" filepath="$PROJECT_DIR$/02_arrays/02_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_methoden/03_methoden.iml" filepath="$PROJECT_DIR$/03_methoden/03_methoden.iml" />
       <module fileurl="file://$PROJECT_DIR$/2acif.iml" filepath="$PROJECT_DIR$/2acif.iml" />
     </modules>
   </component>
