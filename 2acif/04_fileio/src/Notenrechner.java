@@ -5,6 +5,8 @@ public class Notenrechner {
     public static void main(String[] args) {
         int[] grades = readGrades();
         printGrades(grades);
+        double avg = calculateAverage(grades);
+        System.out.println("Average: "+ avg);
     }
     public static int[] readGrades(){
         int[] grades = new int[100];
@@ -37,6 +39,21 @@ public class Notenrechner {
                 System.out.print(myGrades[i]+ " ");
             }
         }
+        System.out.println();
+    }
 
+    public static double calculateAverage(int[] arr){
+        double sum = 0;
+        int countValidInputs = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] != 0){
+                countValidInputs++;
+                sum += arr[i];
+            }
+        }
+        double avg1  = sum / arr.length; // WRONG! => arr.length ist 100 (inkludiert 0en)
+        double avg2  = sum / countValidInputs;
+        return sum / countValidInputs;
     }
 }
