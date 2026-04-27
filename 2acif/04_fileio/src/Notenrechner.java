@@ -19,7 +19,7 @@ public class Notenrechner {
             note = scanner.nextInt();
             scanner.nextLine();
 
-            if(note >= 0  && note < 5){
+            if(note >= 0  && note <= 5){
                 grades[index] = note;
                 index++;
             }else{
