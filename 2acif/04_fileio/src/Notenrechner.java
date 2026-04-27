@@ -4,9 +4,8 @@ import java.util.Scanner;
 public class Notenrechner {
     public static void main(String[] args) {
         int[] grades = readGrades();
-        System.out.println(Arrays.toString(grades));
+        printGrades(grades);
     }
-
     public static int[] readGrades(){
         int[] grades = new int[100];
         Scanner scanner = new Scanner(System.in);
@@ -30,5 +29,14 @@ public class Notenrechner {
 
         scanner.close();
         return grades;
+    }
+
+    public static void printGrades(int[] myGrades){
+        for (int i = 0; i < myGrades.length; i++) {
+            if(myGrades[i]!= 0){
+                System.out.print(myGrades[i]+ " ");
+            }
+        }
+
     }
 }
