@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/02_arrays/02_arrays.iml" filepath="$PROJECT_DIR$/02_arrays/02_arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_methoden/03_methoden.iml" filepath="$PROJECT_DIR$/03_methoden/03_methoden.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_fileio/04_fileio.iml" filepath="$PROJECT_DIR$/04_fileio/04_fileio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_methoden_wh/05_methoden_wh.iml" filepath="$PROJECT_DIR$/05_methoden_wh/05_methoden_wh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_fileio_read/06_fileio_read.iml" filepath="$PROJECT_DIR$/06_fileio_read/06_fileio_read.iml" />
       <module fileurl="file://$PROJECT_DIR$/2acif.iml" filepath="$PROJECT_DIR$/2acif.iml" />
     </modules>
   </component>
